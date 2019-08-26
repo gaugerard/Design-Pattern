@@ -1,0 +1,19 @@
+Here is what we are suppose to represent:
+
+JSON
+{
+    Gauthier
+    {
+        age:22;
+        class: "Master 1"
+    }
+
+    Xavier
+    {
+        age:20;
+        class: "Bodyguard 1"
+    }
+}
+
+
+Where JSon, Str and Int are all extending the abstract class IComponent.

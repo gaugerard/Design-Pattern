@@ -2,48 +2,299 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b9da1bf-d443-421e-99ea-aec7554e09d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/Broker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/BuyStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/CommandPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/SellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Immutable/ImmutableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Immutable/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interceptor/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interceptor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interceptor/DebugFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interceptor/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interceptor/FilterChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interceptor/FilterManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interceptor/Intercepting-Filter-Pattern1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interceptor/InterceptorFilterPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interceptor/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/AndExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/InterpreterPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/OrExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/TerminalExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/interpreter_pattern_uml_diagram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mediator/ChatRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mediator/MediatorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mediator/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/BinaryObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/HexaObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/OctalObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/OperationAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/OperationMul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/OperationSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/StrategyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/abstractfactory_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Bridge/bridge_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Command/command_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Composite/CompositePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Composite/composite_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Facade/facade_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Memento/memento_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/observer_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/PlayerRole/AbstractRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/PlayerRole/MainPlayerRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/PlayerRole/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/PlayerRole/roles/Bachelor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/PlayerRole/roles/Extra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/PlayerRole/roles/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/PlayerRole/roles/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/PlayerRole/roles/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/prototype_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy_1/proxy_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ReadOnly/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ReadOnly/AccountsReadOnly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ReadOnly/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ReadOnly/MainReadOnly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ReadOnly/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/singleton_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/strategy_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor/visitor_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor_1/Liquor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor_1/Neccessity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor_1/Tabaco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor_1/TaxHolidayVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor_1/TaxVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor_1/Visitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor_1/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator/decorator_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator_1/Mozzarella.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator_1/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator_1/PizzaMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator_1/PlainPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator_1/TomatoSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator_1/ToppingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Composite/IComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Composite/Int.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Composite/Json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Composite/Str.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Composite/schema.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Prototype/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Prototype/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Prototype/MainPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Prototype/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Singleton/SingletonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Singleton/ThreadSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/State/ObserverOverStatePattern/ClientObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/State/ObserverOverStatePattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/State/ObserverOverStatePattern/ServerObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/State/ObserverOverStatePattern/TCPClosed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/State/ObserverOverStatePattern/TCPConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/State/ObserverOverStatePattern/TCPEstablished.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/State/ObserverOverStatePattern/TCPListen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/State/ObserverOverStatePattern/TCPState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/State/ObserverOverStatePattern/TestTCPConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ExeSlide11/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ExeSlide11/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ExeSlide11/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/AbstractFactory/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/AbstractFactory/AbstractFactoryPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/AbstractFactory/FactoryProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/AbstractFactory/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/AbstractFactory/RoundedRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/AbstractFactory/RoundedShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/AbstractFactory/RoundedSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/AbstractFactory/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/AbstractFactory/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/AbstractFactory/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Bridge/BridgePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Bridge/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Bridge/DrawAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Bridge/GreenCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Bridge/RedCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Bridge/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Composite/CompositePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Composite/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Configuration/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Configuration/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Configuration/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Configuration/BadPreCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Configuration/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Configuration/ConfigElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Configuration/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Configuration/MyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Facade/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Facade/FacadePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Facade/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Facade/ShapeMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Facade/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Factory/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Factory/FactoryPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Factory/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Factory/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Factory/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Flyweight/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Flyweight/FlyweightPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Flyweight/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Flyweight/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/META-INF/Design Patterns.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design Patterns/META-INF/Design Patterns.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Memento/CareTaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Memento/Memento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Memento/MementoPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Memento/Originator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Prototype/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Prototype/ProtoypePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Prototype/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Prototype/ShapeCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Prototype/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy/ATMMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy/ATMProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy/ATMState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy/GetATMData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy/HasCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy/HasPin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy/NoCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy/NoCash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy/TestATMMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy_1/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy_1/ProxyImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy_1/ProxyPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Proxy_1/RealImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Singleton/SingletonObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Singleton/SingletonPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Singleton/TwoSingletonObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Singleton/TwoSingletonPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/ATMMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/ATMState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/ExeSlide/TCPClosed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/ExeSlide/TCPConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/ExeSlide/TCPEstablished.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/ExeSlide/TCPListen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/ExeSlide/TCPState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/ExeSlide/TestTCPConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/HasCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/HasPin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/NoCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/NoCash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/State/TestATMMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Visitor/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Visitor/ComputerPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Visitor/ComputerPartDisplayVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Visitor/ComputerPartVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Visitor/Keyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Visitor/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Visitor/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Visitor/VisitorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/decorator/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/decorator/DecoratorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/decorator/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/decorator/RedShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/decorator/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/decorator/ShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/AbstractFactoryPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/FactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/FactoryProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/RoundedRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/RoundedRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/RoundedShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/RoundedShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/RoundedSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/RoundedSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/BridgePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Bridge/BridgePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Bridge/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/DrawAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Bridge/DrawAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/GreenCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Bridge/GreenCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/RedCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Bridge/RedCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Bridge/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Broker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Command/Broker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/BuyStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Command/BuyStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/CommandPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Command/CommandPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Command/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/SellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Command/SellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Command/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/CompositePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicesDesignPattern/Composite/CompositePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Composite/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Configuration/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Configuration/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Configuration/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Configuration/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Configuration/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Configuration/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Configuration/BadPreCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Configuration/BadPreCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Configuration/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Configuration/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Configuration/ConfigElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Configuration/ConfigElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Configuration/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Configuration/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Configuration/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Configuration/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Facade/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/FacadePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Facade/FacadePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Facade/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/ShapeMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Facade/ShapeMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Facade/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/FactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/FactoryPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Flyweight/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flyweight/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Flyweight/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flyweight/FlyweightPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Flyweight/FlyweightPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flyweight/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flyweight/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Flyweight/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Immutable/ImmutableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Immutable/ImmutableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Immutable/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Immutable/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interceptor/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interceptor/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/DebugFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interceptor/DebugFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interceptor/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/FilterChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interceptor/FilterChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/FilterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interceptor/FilterManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/Intercepting-Filter-Pattern1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interceptor/Intercepting-Filter-Pattern1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/InterceptorFilterPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interceptor/InterceptorFilterPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interceptor/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/AndExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interpreter/AndExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interpreter/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/InterpreterPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interpreter/InterpreterPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/OrExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interpreter/OrExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/TerminalExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interpreter/TerminalExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/interpreter_pattern_uml_diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Interpreter/interpreter_pattern_uml_diagram.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/ChatRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Mediator/ChatRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/MediatorPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Mediator/MediatorPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Mediator/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/CareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Memento/CareTaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/Memento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Memento/Memento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/MementoPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Memento/MementoPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/Originator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Memento/Originator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/BinaryObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/BinaryObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/HexaObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/HexaObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/ObserverPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/ObserverPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/OctalObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/OctalObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/ProtoypePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/ProtoypePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/ShapeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/ShapeCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/ATMMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy/ATMMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/ATMProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy/ATMProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/ATMState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy/ATMState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/GetATMData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy/GetATMData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/HasCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy/HasCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/HasPin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy/HasPin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/NoCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy/NoCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/NoCash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy/NoCash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/TestATMMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy/TestATMMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy_1/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy_1/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy_1/ProxyImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy_1/ProxyImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy_1/ProxyPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy_1/ProxyPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy_1/RealImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Proxy_1/RealImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/SingletonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/SingletonObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/SingletonPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/SingletonPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/TwoSingletonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/TwoSingletonObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/TwoSingletonPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/TwoSingletonPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/ATMMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/ATMMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/ATMState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/ATMState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/ExeSlide/TCPClosed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/ExeSlide/TCPClosed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/ExeSlide/TCPConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/ExeSlide/TCPConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/ExeSlide/TCPEstablished.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/ExeSlide/TCPEstablished.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/ExeSlide/TCPListen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/ExeSlide/TCPListen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/ExeSlide/TCPState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/ExeSlide/TCPState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/ExeSlide/TestTCPConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/ExeSlide/TestTCPConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/HasCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/HasCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/HasPin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/HasPin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/NoCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/NoCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/NoCash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/NoCash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/TestATMMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/State/TestATMMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/OperationAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/OperationAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/OperationMul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/OperationMul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/OperationSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/OperationSub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/StrategyPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/StrategyPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/ComputerPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor/ComputerPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/ComputerPartDisplayVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor/ComputerPartDisplayVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/ComputerPartVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor/ComputerPartVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/VisitorPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Visitor/VisitorPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/DecoratorPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator/DecoratorPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/RedShapeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator/RedShapeDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/ShapeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/decorator/ShapeDecorator.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,67 +303,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Design Patterns" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interpreter/Expression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interpreter/TerminalExpression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interpreter/AndExpression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-              <folding>
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interpreter/OrExpression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Interpreter/InterpreterPatternDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,109 +315,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Workflow/TaskCheck.java" />
-        <option value="$PROJECT_DIR$/src/Workflow/TaskBill.java" />
-        <option value="$PROJECT_DIR$/src/Workflow/TaskOrder.java" />
-        <option value="$PROJECT_DIR$/src/Workflow/TaskSend.java" />
-        <option value="$PROJECT_DIR$/src/Workflow/TaskDispacth.java" />
-        <option value="$PROJECT_DIR$/src/Workflow/TaskTrash.java" />
-        <option value="$PROJECT_DIR$/src/Workflow/TaskBackup.java" />
-        <option value="$PROJECT_DIR$/src/State/ExeSlide/TCPState.java" />
-        <option value="$PROJECT_DIR$/src/State/ExeSlide/TestTCPConnection.java" />
-        <option value="$PROJECT_DIR$/src/State/ExeSlide/TCPListen.java" />
-        <option value="$PROJECT_DIR$/src/State/ExeSlide/TCPEstablished.java" />
-        <option value="$PROJECT_DIR$/src/State/ExeSlide/TCPConnection.java" />
-        <option value="$PROJECT_DIR$/src/State/ExeSlide/TCPClosed.java" />
-        <option value="$PROJECT_DIR$/src/Observer/Observer.java" />
-        <option value="$PROJECT_DIR$/src/Observer/HexaObserver.java" />
-        <option value="$PROJECT_DIR$/src/Observer/OctalObserver.java" />
-        <option value="$PROJECT_DIR$/src/Observer/BinaryObserver.java" />
-        <option value="$PROJECT_DIR$/src/Observer/Subject.java" />
-        <option value="$PROJECT_DIR$/src/Observer/ObserverPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/Command/Order.java" />
-        <option value="$PROJECT_DIR$/src/Command/Stock.java" />
-        <option value="$PROJECT_DIR$/src/Command/SellStock.java" />
-        <option value="$PROJECT_DIR$/src/Command/BuyStock.java" />
-        <option value="$PROJECT_DIR$/src/Command/Broker.java" />
-        <option value="$PROJECT_DIR$/src/Command/CommandPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/Strategy/Strategy.java" />
-        <option value="$PROJECT_DIR$/src/Strategy/OperationAdd.java" />
-        <option value="$PROJECT_DIR$/src/Strategy/OperationSub.java" />
-        <option value="$PROJECT_DIR$/src/Strategy/OperationMul.java" />
-        <option value="$PROJECT_DIR$/src/Strategy/Context.java" />
-        <option value="$PROJECT_DIR$/src/Strategy/StrategyPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/Mediator/ChatRoom.java" />
-        <option value="$PROJECT_DIR$/src/Mediator/User.java" />
-        <option value="$PROJECT_DIR$/src/Mediator/MediatorPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/Immutable/ImmutableDemo.java" />
-        <option value="$PROJECT_DIR$/src/Immutable/Person.java" />
-        <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/src/Interceptor/test.java" />
-        <option value="$PROJECT_DIR$/src/Interceptor/Filter.java" />
-        <option value="$PROJECT_DIR$/src/Interceptor/AuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/src/Interceptor/DebugFilter.java" />
-        <option value="$PROJECT_DIR$/src/Interceptor/Target.java" />
-        <option value="$PROJECT_DIR$/src/Interceptor/FilterChain.java" />
-        <option value="$PROJECT_DIR$/src/Interceptor/FilterManager.java" />
-        <option value="$PROJECT_DIR$/src/Interceptor/Client.java" />
-        <option value="$PROJECT_DIR$/src/Interceptor/InterceptorFilterPattern.java" />
-        <option value="$PROJECT_DIR$/src/Interpreter/Expression.java" />
-        <option value="$PROJECT_DIR$/src/Interpreter/TerminalExpression.java" />
-        <option value="$PROJECT_DIR$/src/Interpreter/AndExpression.java" />
-        <option value="$PROJECT_DIR$/src/Interpreter/OrExpression.java" />
-        <option value="$PROJECT_DIR$/src/Interpreter/InterpreterPatternDemo.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1017" />
-    <option name="width" value="1550" />
-    <option name="height" value="1407" />
-  </component>
+  <component name="ProjectId" id="1PMbNsDJ82ys7QDqsyiP2naP3nu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Design Patterns &amp; Threads" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Design Patterns &amp; Threads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Design Patterns &amp; Threads" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Design Patterns &amp; Threads" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557592836501" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ExercicesDesignPattern" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gauth\IdeaProjects\Design Patterns &amp; Threads\src\Interpreter" />
-      <recent name="C:\Users\gauth\IdeaProjects\Design Patterns &amp; Threads\src\Interceptor" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Visitor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gauth\IdeaProjects\Design-Pattern\src\ExercicesDesignPattern" />
       <recent name="C:\Users\gauth\IdeaProjects\Design Patterns\src\Proxy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -235,8 +341,12 @@
       <recent name="Facade" />
       <recent name="AbstractFactory" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Visitor" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gauth\IdeaProjects\Design-Pattern\src\Strategy" />
+      <recent name="C:\Users\gauth\IdeaProjects\Design-Pattern\src\Command" />
+      <recent name="C:\Users\gauth\IdeaProjects\Design-Pattern\src\Observer" />
+      <recent name="C:\Users\gauth\IdeaProjects\Design-Pattern\src\Memento" />
+      <recent name="C:\Users\gauth\IdeaProjects\Design-Pattern\src\Visitor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -251,52 +361,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterpreterPatternDemo">
-    <configuration name="ImmutableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Immutable.ImmutableDemo" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Immutable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterceptingFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interceptor.InterceptingFilter" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Interceptor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterceptorFilterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interceptor.InterceptorFilterPattern" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Interceptor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="InterpreterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interpreter.InterpreterPatternDemo" />
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Interpreter.InterpreterPatternDemo" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interpreter.*" />
+          <option name="PATTERN" value="DesignPatterns.Interpreter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Visitor_1.Main" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.Visitor_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainReadOnly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.ReadOnly.MainReadOnly" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.ReadOnly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,11 +402,24 @@
       </method>
     </configuration>
     <configuration name="MediatorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mediator.MediatorPatternDemo" />
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Mediator.MediatorPatternDemo" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mediator.*" />
+          <option name="PATTERN" value="DesignPatterns.Mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Strategy.StrategyPatternDemo" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,19 +428,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MediatorPatternDemo" />
-      <item itemvalue="Application.ImmutableDemo" />
-      <item itemvalue="Application.InterceptingFilter" />
-      <item itemvalue="Application.InterceptorFilterPattern" />
+      <item itemvalue="Application.StrategyPatternDemo" />
       <item itemvalue="Application.InterpreterPatternDemo" />
+      <item itemvalue="Application.MediatorPatternDemo" />
+      <item itemvalue="Application.MainReadOnly" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterpreterPatternDemo" />
-        <item itemvalue="Application.InterceptorFilterPattern" />
-        <item itemvalue="Application.InterceptingFilter" />
-        <item itemvalue="Application.ImmutableDemo" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainReadOnly" />
         <item itemvalue="Application.MediatorPatternDemo" />
+        <item itemvalue="Application.InterpreterPatternDemo" />
+        <item itemvalue="Application.StrategyPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -370,636 +480,24 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="54129000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1017" y="0" width="1550" height="1407" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921507" visible="true" weight="0.18456376" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50078493" side_tool="true" weight="0.28105396" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3100471" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Tool Output" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32967034" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3320251" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921507" visible="true" weight="0.18456376" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50078493" side_tool="true" weight="0.28105396" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3100471" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Tool Output" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32967034" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3320251" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Design Patterns" />
     <option name="LAST_COMMIT_MESSAGE" value="Design Patterns" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/State/ExeSlide/TCPListen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bridge/DrawAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bridge/BridgePatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/ExeSlide/TCPClosed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/ExeSlide/TCPState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/ExeSlide/TCPConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/ExeSlide/TestTCPConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/ObserverPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#95#105#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/BinaryObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/OctalObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/HexaObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Command/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Command/CommandPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Command/BuyStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Command/Broker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#141#148#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Command/SellStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Command/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/Strategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/OperationAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/OperationSub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/StrategyPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/OperationMul.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mediator/ChatRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mediator/MediatorPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mediator/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Immutable/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Immutable/ImmutableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/Intercepting-Filter-Pattern1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/AuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/DebugFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/FilterChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#90#98#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/FilterManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/InterceptorFilterPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interpreter/interpreter_pattern_uml_diagram.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interpreter/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interpreter/TerminalExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interpreter/AndExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interpreter/OrExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interpreter/InterpreterPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>9</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Threads</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
