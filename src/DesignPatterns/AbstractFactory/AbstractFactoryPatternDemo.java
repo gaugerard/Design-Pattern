@@ -6,6 +6,8 @@ public class AbstractFactoryPatternDemo {
         // We choose the factory we want (here : the not rounded factory).
         AbstractFactory shapeFactory = FactoryProducer.getFactory(false);
 
+
+
         Shape shape1 = shapeFactory.getShape("RECTANGLE");
         shape1.draw();
 

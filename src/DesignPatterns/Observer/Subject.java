@@ -24,6 +24,11 @@ public class Subject {
         observers.remove(observer);
     }*/
 
+    public void updateAllTable(){
+        // doing something..
+        notifyAllObservers();
+    }
+
     public void notifyAllObservers(){
         for (Observer observer : observers) {
             observer.update();
