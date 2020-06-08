@@ -2,6 +2,7 @@ package DesignPatterns.Bridge;
 
 public class Circle extends Shape {
 
+    // comment test
     private int x, y, radius;
 
     public Circle(int x, int y, int radius, DrawAPI drawAPI){
